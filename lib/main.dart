@@ -73,17 +73,21 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
 
       _currentNumber = "";
-
+      _operator = "";
     });
   }
 
   void _chooseOperator(String operator) {
     print(operator + " basıldı");
     setState(() {
+      if(_operator!=""){
+        _clickEqual();
+      }
       _operator = operator;
       _currentNumber = _currentNumber + operator;
 
     });
+
   }
   @override
   Widget build(BuildContext context) {
