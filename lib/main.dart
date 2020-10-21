@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 // Değişiklik 2
+//deneme branch denemede değişiklik yapmaya çlaışıyorum
+
 void main() {
   runApp(MyApp());
 }
