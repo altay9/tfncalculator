@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-// Değişiklik
+// Değişiklik 2
 void main() {
   runApp(MyApp());
 }
