@@ -1,6 +1,6 @@
 # Tutorial for newbies: tfncalculator
 
-A new calculator coded using Flutter to educate our future co-workers.
+Just a simple calculator coded using Flutter to educate our future co-workers.
 
 ##
 
